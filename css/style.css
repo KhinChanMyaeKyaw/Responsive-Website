@@ -1,0 +1,185 @@
+/* Reset */
+html, body {
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+/* Navigation */
+.navbar-brand {
+    height: 2.8rem;
+}
+.navbar {
+    background: linear-gradient(to right, #f2f2f2, #FBFBFB);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
+}
+.nav-item {
+    padding: .4rem;
+}
+.nav-link {
+    color: black!important;
+}
+.nav-link.active,
+nav-link:hover {
+    color: #396AFC!important;
+}
+/* carousel */
+.carousel-inner {
+    max-height: 40rem!important;
+}
+/* change carousel transition speed */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+    transition: transform 1.2s ease;
+}
+.carousel-indicators li {
+    width: 40px;
+    height: 6px;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+/* carousel content */
+.carousel-caption {
+    position: absolute;
+    top: 47%;
+    transform: translateY(-50%);
+}
+.bg-dark {
+    background-color: rgba(0, 0, 0, .7)!important;
+    border-radius: 1.5rem;
+    padding: 1rem;
+}
+.bg-white {
+    background-color: rgba(255, 255, 255, .65)!important;
+    border-radius: 1.5rem;
+    padding: 1rem;
+}
+.carousel-caption h3 {
+    font-size: 2.3rem;
+    font-weight: 300;
+}
+p.lead {
+    font-size: 1.4rem;
+}
+
+/* Social Media Sticky Bar */
+.jumbotron {
+    background: linear-gradient(to right, #f2f2f2, #FBFBFB);
+    padding: 1rem 0 .5rem;
+    margin-bottom: 0;
+    border-radius: 0;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+}
+ul.social {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+}
+ul.social li {
+    margin: 0 auto;
+}
+.jumbotron .svg-inline--fa {
+    font-size: 2rem;
+    margin: 0 1rem;
+}
+.jumbotron .svg-inline--fa:hover {
+    color: gray!important;
+}
+
+/* Column Content */
+.fa-square {
+    opacity: .05;
+}
+/* Fixed Background IMG */
+.fixed-background {
+    padding: 12rem 0;
+    border-top: .05rem solid black;
+    border-bottom: .05rem solid black;
+    margin-bottom: 2px;
+}
+/* .fixed {
+    background-image: url('../img/background.jpg');
+    position: fixed;
+} */
+/* Footer */
+footer {
+    background-color: #383838;
+    padding: 1rem 2rem 3rem;
+}
+footer img, h4 {
+    height: 3.5rem;
+    margin: 1.5rem auto;
+}
+footer a,
+.socket a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover,
+.socket a:hover {
+    color: white;
+    text-decoration: none;
+}
+/* Socket */
+.socket {
+    background-color: #222222;
+    border-top: .1rem solid gray;
+}
+/* MEDIA QUERIES */
+/* Devices under 1199px (xl) */
+@media (max-width: 1199.98px) {
+    .carousel-caption h3 {
+        font-size: 1.8rem;
+    }  
+}
+/* Devices under 992px (xl) */
+@media (max-width: 991.98px) {
+    p.lead {
+        font-size: 1.2rem;
+    }
+    .carousel-indicators li {
+        width: 30px;
+        height: 4px;
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+}
+/* Devices under 768px (md) */
+@media (max-width: 767.98px) {
+    p.lead {
+        font-size: 1.1rem;
+    }
+    .navbar-brand {
+        height: 2.5rem;
+    }
+    .navbar {
+        font-size: 1rem;
+        padding: .4rem .6rem;
+    }
+    .jumbotron .svg-inline--fa {
+        font-size: 1.6rem;
+        margin: 0 .8rem;
+    }
+}
+/* Devices under 576px (sm) */
+@media (max-width: 575.98px) {
+    .navbar-brand {
+        height: 2.3rem;
+    }
+    .navbar {
+        font-size: .9rem;
+        padding: .3rem .6rem;
+    }
+    .jumbotron .svg-inline--fa {
+        font-size: 1.4rem;
+        margin: 0 .5rem;
+    }
+}
+
+/* BOOTSTRAP BREAK POINTS: */
